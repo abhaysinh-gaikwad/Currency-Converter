@@ -50,7 +50,7 @@ const App = () => {
         const result = amount * rate;
         const transaction = `${amount} ${fromCurrency} = ${result.toFixed(2)} ${toCurrency}`;
         setTransactions([transaction, ...transactions.slice(0, 4)]);
-        setConversionResult(`${amount} ${fromCurrency} = ${result.toFixed(2)} ${toCurrency}`); // Set conversion result
+        setConversionResult(`${amount} ${fromCurrency} = ${result.toFixed(2)} ${toCurrency}`);
         setError('');
       } else {
         throw new Error(`Invalid rate fetched for ${fromCurrency} to ${toCurrency}`);
