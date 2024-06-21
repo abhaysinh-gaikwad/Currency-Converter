@@ -1,6 +1,7 @@
 import React from 'react';
 
 const TransactionList = ({ transactions }) => (
+  
   <div>
     <h3>Last 5 Transactions</h3>
     <ul>
