@@ -64,7 +64,7 @@ npm install
 ```
 4. Start the development server:
 ```bash
-npm start
+npm run dev
 ```
 ## Features
 - Currency Selector: Choose the currency you want to convert from and to.
