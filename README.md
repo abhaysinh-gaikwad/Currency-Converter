@@ -4,6 +4,10 @@ This project is a simple currency converter application built with React. It all
 
 ## Project URL
 
+
+The live deployed version of this project can be accessed at:
+- [Currency Converter Live Demo](https://currency-converter-delta-dusky.vercel.app/)
+
 The application fetches currency data from the following API:
 - [https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1](https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1)
 
@@ -47,6 +51,9 @@ Currency-Converter/
 To run this application locally:
 
 1. Clone the repository.
+```bash
+git clone https://github.com/abhaysinh-gaikwad/Currency-Converter-.git
+```
 2. Navigate to the project directory:
    ```bash
    cd my-currency-converter
